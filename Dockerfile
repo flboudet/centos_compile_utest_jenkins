@@ -1,4 +1,4 @@
-FROM flobo/centos_compile_utest:6
+FROM flobo/centos_compile_utest_mmi:6
 MAINTAINER The U-TEST Team
 
 ENV JENKINS_PUBLIC_KEY="define" \
