@@ -25,6 +25,8 @@ chmod 600 ~/.ssh/id_rsa
 
 echo -e "Host u-test-factory.org\n\tStrictHostKeyChecking no\n\n" >> ~/.ssh/config
 echo -e "Host gitlab.u-test-factory.org\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+echo -e "Host spherea-portal.com\n\tStrictHostKeyChecking no\n\n" >> ~/.ssh/config
+echo -e "Host bastri-gerrit.spherea-portal.com\n\tStrictHostKeyChecking no\n\n" >> ~/.ssh/config
 
 # Run sshd
 /usr/sbin/sshd -D
